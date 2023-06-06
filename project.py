@@ -3,5 +3,5 @@
 #pyinstaller.exe --onefile --noconsole project.py
 #Task1
 #pip install argparse
-#Task2
+#Task2,3
 #pip install json
