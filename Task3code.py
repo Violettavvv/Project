@@ -8,7 +8,7 @@ data = {
         "ulica": "Kwiatkowa 16",
         "miasto": "Wroclaw",
     },
-    "telefon": ["123456789",]
+    "telefon": ["123456789"]
 }
 
 with open("MojeDane.json", "w") as json_file:
