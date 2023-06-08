@@ -7,5 +7,8 @@
 #pip install json
 #Task4,5
 #pip install pyyaml
-#Task6
+#Task6,7
 #pip install xml
+#Task8
+#pip install tkinker
+#pip install pillow
