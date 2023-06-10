@@ -4,7 +4,7 @@ def verify_xml_syntax(file_path):
     try:
         tree = ET.parse(file_path)
         root = tree.getroot()
-        print("Składnia pliku XML jest poprawna.")
+        print("Składnia pliku XML jest poprawna")
     except ET.ParseError as e:
         print(f"Błąd składni pliku XML: {e}")
 
