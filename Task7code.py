@@ -12,4 +12,4 @@ cos3.text = "Wartość 3"
 
 tree = ET.ElementTree(root)
 
-tree.write("danePlik.xml")
+tree.write("DanePlik.xml")
