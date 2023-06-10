@@ -32,6 +32,7 @@ jobs:
           
       - name: Install pip
         run: |
+          pip install pyinstaller
           pyinstaller.exe --onefile project.py
           pyinstaller.exe --onefile --noconsole project.py
           pip install argparse
