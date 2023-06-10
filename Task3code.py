@@ -11,5 +11,5 @@ data = {
     "telefon": ["123456789"]
 }
 
-with open("MojeDane.json", "w") as json_file:
+with open("mojeDane.json", "w") as json_file:
     json.dump(data, json_file)
