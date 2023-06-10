@@ -1,0 +1,44 @@
+name: BuildPlik
+
+on:
+  schedule:
+    - cron: "0 23 * * 0"
+  push:
+    branches:
+      - master 
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11.3
+
+      - name: BuildPlik .exe
+        run: |
+
+      - name: Upload .exe
+        uses: actions/upload-artifact@v3
+        with:
+          name: MyProject
+          path: C:/laboratoriumy Git Bash/lab6,7,8(projekt)/BuildPlik.exe 
+          
+      - name: Install pip
+        run: |
+          pyinstaller.exe --onefile project.py
+          pyinstaller.exe --onefile --noconsole project.py
+          pip install argparse
+          pip install json
+          pip install pyyaml
+          pip install xml
+          pip install tkinker
+          pip install pillow
+          pip install aiohttp
+          pip install aiofiles
