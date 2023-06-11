@@ -32,14 +32,4 @@ jobs:
           
       - name: Install pip
         run: |
-          pip install pyinstaller
-          pyinstaller.exe --onefile C:\laboratoriumy Git Bash\lab6,7,8(projekt)\project.py
-          pyinstaller.exe --onefile --noconsole C:\laboratoriumy Git Bash\lab6,7,8(projekt)\project.py
-          pip install argparse
-          pip install json
-          pip install pyyaml
-          pip install xml
-          pip install tkinker
-          pip install pillow
-          pip install aiohttp
-          pip install aiofiles
+          pip install -r project.txt
