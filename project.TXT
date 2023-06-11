@@ -1,4 +1,5 @@
-
+pyinstaller.exe --onefile project.py
+pyinstaller.exe --onefile --noconsole project.py
 pip install argparse
 pip install json
 pip install pyyaml
