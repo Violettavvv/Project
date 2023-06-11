@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: MyProject
-          path: C:\laboratoriumy Git Bash\lab6,7,8(projekt)\BuildPlik.exe 
+          path: C:\laboratoriumy Git Bash\lab6,7,8(projekt)\dist\project.exe 
           
       - name: Install pip
         run: |
