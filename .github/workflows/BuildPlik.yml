@@ -22,7 +22,7 @@ jobs:
           python-version: 3.11.3
 
       - name: BuildPlik .exe
-        run: |
+        run: echo "Building .exe file"
 
       - name: Upload .exe
         uses: actions/upload-artifact@v3
