@@ -23,8 +23,6 @@ jobs:
 
       - name: BuildPlik .exe
         run: |
-          pyinstaller.exe --onefile project.py
-          pyinstaller.exe --onefile --noconsole project.py
 
       - name: Upload .exe
         uses: actions/upload-artifact@v3
