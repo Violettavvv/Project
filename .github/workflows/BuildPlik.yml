@@ -32,4 +32,4 @@ jobs:
           
       - name: Install pip
         run: |
-          pip install -r project.txt
+          pip install -r project.TXT
